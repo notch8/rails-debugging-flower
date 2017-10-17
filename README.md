@@ -27,7 +27,7 @@ Here are a couple of user stories describing the functionality expected from the
 
 4) ```$ rails db:setup```
 
-5) ```$ rake db:test:prepare```
+5) ```$ rails db:test:prepare```
 
 6) ```$ rspec spec```
 
