@@ -2,6 +2,8 @@
 
 This app is used for cataloging flower types.  Users can select the family of the flower, and provide some basic details about that flower.
 
+![flower](https://image.freepik.com/free-vector/coloured-flower-design_1284-1550.jpg)
+
 ## Something's not right
 
 One day, a long time customer phoned us up with a complaint that they were not able to create new flowers using the application.  When they submit new flowers, they recieve an error, and are not able to determine the cause of the problem.  Further causing problems, users were able to create new flowers without specifying the color of the flower, which is causig major headaches for the customer.
