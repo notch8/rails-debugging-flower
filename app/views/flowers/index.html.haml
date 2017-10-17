@@ -1,0 +1,8 @@
+%h1 Flowers
+
+%ul
+  - @flowers.each do |flower|
+    %ul= flower.name
+
+%div
+= link_to "Add a Flower", new_flower_path

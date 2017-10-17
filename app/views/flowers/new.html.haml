@@ -1,0 +1,32 @@
+%h1 Add a Flower
+
+.container
+  .row
+    .col-xs-4.offset.xs-4
+      - if @flower.errors.full_messages.length > 0
+        .alert.alert-danger
+          %h4.alert-heading There were some problems saving the form.
+          %ul
+            - @flower.errors.full_messages.each do |message|
+              %li= message
+
+      .well
+        = form_for @flower do |f|
+          .form-group
+            = f.label :name
+            = f.text_field :name, class: 'form-control'
+
+          .form-group
+            = f.label :edible
+            = f.check_box :edible, class: 'form-control'
+
+          .form-group
+            = f.label :color
+            = f.text_field :color, class: 'form-control'
+
+          .form-group
+            = f.label :family_id
+            = f.select :family_id, options_from_collection_for_select(@families, :id, :name), class: 'form-control'
+
+          .form-group
+            = f.submit "Save", class: 'btn btn-primary'
