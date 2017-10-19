@@ -23,7 +23,7 @@ Here are a couple of user stories describing the functionality expected from the
 
 1) Fork the repository on Github, and clone your fork of the application.  Make it a private repo, and invite with Github user @winescout (that's me!) to collaborate.
 
-2) ```$ cd debugging-exercise```
+2) ```$ cd rails-debugging-flower```
 
 3) ```$ bundle install```
 
